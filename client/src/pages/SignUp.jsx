@@ -4,6 +4,7 @@ import {Link, useNavigate} from "react-router-dom"
 import Oauth from "../components/Oauth"
 
 export default function SignUp() {
+  
   const navigate = useNavigate()
   const [formData, setFormData] = useState({})
   const [error, setError] = useState(null)
